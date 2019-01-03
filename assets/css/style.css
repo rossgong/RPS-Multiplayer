@@ -1,0 +1,26 @@
+#game-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#choice-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#result-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.game-card {
+    width: 33%;
+    border: 1px;
+    border-style: solid;
+    padding: 10px;
+}

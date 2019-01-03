@@ -24,10 +24,35 @@
 </head>
 
 <body>
-	<h1>RockPaperScissors</h1>
+	<h1>Rock Paper Scissors</h1>
 
+	<div id="game-container">
+		<div id="local-player" class="game-card">
+			<h6>
+				Wanna Play? Give a nickname and let's play!
+			</h6>
 
+			<form action="submit">
+				<input type="text" name="nickname" id="user-input">
+				<button type="submit" id="nick-sub">Submit</button>
+			</form>
+		</div>
 
+		<div id="judge" class="game-card">
+			<div id="choice-div">
+				<div id="local-choice"></div>
+				<div id="remote-choice"></div>
+			</div>
+			<div id="result-div">
+
+			</div>
+		</div>
+
+		<div id="remote-player" class="game-card">
+
+		</div>
+
+	</div>
 </body>
 
 </html>
